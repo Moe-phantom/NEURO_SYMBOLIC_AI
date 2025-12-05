@@ -1,9 +1,8 @@
 # Neuro-Symbolic Fake News Detector (Part 1)
 
 > **Project Context:** AIROST UTM Internship Project (Part 1 of 2)  
-> **Status:** Active Research Prototype  
 > **Architecture:** Dual-Encoder DistilBERT + Cross-Attention + Live Web Search  
-> **Performance:** 70.0% Validation Accuracy on LIAR Benchmark  
+> **Performance:** 70.0% Validation Accuracy   
 > **Training Scale:** 5,885 Samples (30% of Data - Resource Optimized)
 
 ![Neuro-Symbolic Architecture Diagram](https://github.com/user-attachments/assets/7547a8e8-0687-47a2-aac7-2cc38c838fae)
@@ -89,9 +88,8 @@ For this specific demonstration, I strictly curated the training set to a high-q
 # 📉 Deep Learning Fake News Classifier (Part 2)
 
 > **Project Context:** AIROST UTM Internship Project (Part 2 of 2)  
-> **Status:** Complete  
 > **Architecture:** Word2Vec (Static Embeddings) + LSTM (Recurrent Neural Network)  
-> **Performance:** 99.2% Accuracy on ISOT/Kaggle Dataset
+> **Performance:** 99.2% Accuracy 
 
 ![LSTM Architecture Diagram](https://github.com/user-attachments/assets/3747ae61-baf3-4d40-af5b-1b2dcc58438c)
 *(Figure 2: Schematic of the Sequential LSTM Architecture with Pre-trained Embeddings)*
@@ -143,6 +141,6 @@ The model achieved near-perfect separation between the two classes on the test s
 | **Recall** | 0.99 |
 | **F1-Score** | 0.99 |
 
-*Note: While the accuracy is exceptionally high, this suggests strong stylistic differences between the "Real" (Reuters) and "Fake" sources in this specific dataset. This model serves as a high-performance baseline for detecting linguistic anomalies.*
+*Note: While the accuracy is exceptionally high, this suggests big stylistic differences between the "Real" (Reuters) and "Fake" sources in this specific dataset. This model serves as a high-performance baseline for detecting linguistic anomalies.*
 
 ---
